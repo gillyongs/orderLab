@@ -8,4 +8,3 @@ def subtotal(price: int, quantity: int) -> int:
     if price < 0 or quantity < 0:
         raise ValueError("단가와 수량은 음수일 수 없습니다.")
     return price * quantity
-
