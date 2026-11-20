@@ -1,0 +1,4 @@
+order_id,customer_id,item_name,quantity,unit_price,discount
+1001,C001,Apple,5,1000,0.1
+1002,C002,Banana,2,2000,0.0
+1003,C001,Orange,10,1500,0.15

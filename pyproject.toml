@@ -1,0 +1,18 @@
+[project]
+name = "orderlab"
+version = "0.1.0"
+description = "OrderLab CI/CD project"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "httpx",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
